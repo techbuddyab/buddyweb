@@ -10923,3 +10923,17 @@ p {
   background-position: center;
   background-size: contain;
 }
+
+.dashboard {
+  border: 0;
+  width: 750px;
+  height: 450px;
+  background-image: url(../images/dashboard.png);
+  background-size: contain;
+}
+
+.dashboard:hover {
+  background-image: url(../images/dashboard-2.png);
+  background-position: center;
+  background-size: contain;
+}
