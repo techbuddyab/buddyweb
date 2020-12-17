@@ -10888,7 +10888,16 @@ p {
                             -moz-box-shadow: 0 0 10px  rgba(0,0,0,0.3);
                             -webkit-box-shadow: 0 0 10px  rgba(0,0,0,0.3);
                             -o-box-shadow: 0 0 10px  rgba(0,0,0,0.3);
-                            border-radius:35px;"
+                            border-radius:37px;"
+}
+
+.shadow-dash {
+  style=" 
+                            box-shadow: 0 0 10px  rgba(0,0,0,0.3);
+                            -moz-box-shadow: 0 0 10px  rgba(0,0,0,0.3);
+                            -webkit-box-shadow: 0 0 10px  rgba(0,0,0,0.3);
+                            -o-box-shadow: 0 0 10px  rgba(0,0,0,0.3);
+                            border-radius:25px;"
 }
 
 .branding {
