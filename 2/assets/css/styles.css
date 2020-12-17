@@ -455,11 +455,11 @@ p {
 }
 
 .header-area.header-5-area .header-nav .navigation .navbar .navbar-brand {
-  display: block
+  display: block;
 }
 
 .header-area.header-5-area .header-nav .navigation .navbar .navbar-brand-2 {
-  display: none
+  display: none;
 }
 
 .header-area.header-5-area .header-nav.sticky .navigation .navbar .navbar-brand {
@@ -5769,15 +5769,15 @@ p {
 }
 
 .footer-area .footer-copyright p {
-  font-size: 22px;
+  font-size: 14px;
   line-height: 1.18;
-  color: #272727;
+  color: #000;
   margin: 0
 }
 
 @media (max-width:767px) {
   .footer-area .footer-copyright p {
-    font-size: 18px
+    font-size: 14px
   }
 }
 
@@ -10685,19 +10685,19 @@ p {
 }
 
 .login-form .input-box input {
-  width: 100%;
-  border: solid 2px rgba(102, 102, 102, .12);
+  width: 70%;
+  border: solid 2px rgba(255, 79, 79, .5);
   border-radius: 5px;
   line-height: 60px;
   padding-left: 30px;
-  background-color: transparent
+  background-color: transparent;
+  color: rgb(255, 79, 79);
 }
 
 .login-form .input-box button {
-  width: 100%;
+  width: 50%;
   border: 2px solid #ff4f4f;
   line-height: 60px;
-  width: 100%;
   background: #ff4f4f
 }
 
@@ -10707,12 +10707,12 @@ p {
 }
 
 .login-form .input-box a {
-  width: 100%;
+  width: 70%;
   background-color: transparent;
-  border: solid 2px rgba(102, 102, 102, .12);
-  color: #1b1b25;
+  border: solid 2px rgba(255, 79, 79, .5);
   margin-top: 30px;
-  padding: 0
+  padding: 0;
+  color: rgb(255, 79, 79, .5);
 }
 
 .login-form .input-box a svg {
@@ -10733,7 +10733,7 @@ p {
   display: inline-block;
   height: 5px;
   width: 15%;
-  background: rgba(102, 102, 102, .12);
+  background: rgba(255, 79, 79, .5);
   border-radius: 10px
 }
 
@@ -10747,7 +10747,7 @@ p {
 }
 
 .login-form .create-account-link span {
-  font-size: 20px;
+  font-size: 12px;
   font-family: "Rubik", sans-serif
 }
 
@@ -10768,13 +10768,12 @@ p {
 }
 
 .checkbox_common li label {
-  color: #333;
-  font-size: 16px;
+  font-size: 12px;
   margin-bottom: 12px;
   cursor: pointer;
   font-weight: 400;
-  color: #3c3a5a;
-  opacity: .8
+  color: white;
+  opacity: .8;
 }
 
 .checkbox_common li label a {
@@ -10883,19 +10882,19 @@ p {
 }
 
 .shadow {
-                            box-shadow: 0 0 10px  rgba(0,0,0,0.3);
-                            -moz-box-shadow: 0 0 10px  rgba(0,0,0,0.3);
-                            -webkit-box-shadow: 0 0 10px  rgba(0,0,0,0.3);
-                            -o-box-shadow: 0 0 10px  rgba(0,0,0,0.3);
-                            border-radius:37px;"
+box-shadow: 0 0 10px  rgba(0,0,0,0.3);
+-moz-box-shadow: 0 0 10px  rgba(0,0,0,0.3);
+-webkit-box-shadow: 0 0 10px  rgba(0,0,0,0.3);
+-o-box-shadow: 0 0 10px  rgba(0,0,0,0.3);
+border-radius:37px;"
 }
 
 .shadow-dash {
-                            box-shadow: 0 0 10px  rgba(0,0,0,0.3);
-                            -moz-box-shadow: 0 0 10px  rgba(0,0,0,0.3);
-                            -webkit-box-shadow: 0 0 10px  rgba(0,0,0,0.3);
-                            -o-box-shadow: 0 0 10px  rgba(0,0,0,0.3);
-                            border-radius:15px;"
+box-shadow: 0 0 10px  rgba(0,0,0,0.3);
+-moz-box-shadow: 0 0 10px  rgba(0,0,0,0.3);
+-webkit-box-shadow: 0 0 10px  rgba(0,0,0,0.3);
+-o-box-shadow: 0 0 10px  rgba(0,0,0,0.3);
+border-radius:15px;"
 }
 
 .branding {
@@ -10936,4 +10935,22 @@ p {
   background-image: url(../images/dashboard-2.png);
   background-position: center;
   background-size: contain;
+}
+
+.splash {
+  zoom: 0.9;
+  transform: rotate(-11deg);
+  margin-left: -10%;
+  margin-top: 20%;
+  box-shadow: 0 0 10px  rgba(0,0,0,0.3);
+  border-radius: 37px;
+}
+
+.splash-dash {
+  zoom: 0.8;
+  transform: rotate(-11deg);
+  margin-left: 60%;
+  margin-top: 5%;
+  box-shadow: 0 0 10px  rgba(0,0,0,0.3);
+  border-radius: 15px;
 }
