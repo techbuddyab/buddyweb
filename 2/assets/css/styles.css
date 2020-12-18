@@ -1282,8 +1282,8 @@ p {
 
 .banner-area .banner-shaps-item .banner-thumb {
   position: absolute;
-  right: 0;
-  top: 131px;
+  right: -654px;
+  top: 247px;
   z-index: -1
 }
 
@@ -1327,7 +1327,7 @@ p {
 .banner-area .banner-shaps-item .banner-thumb-2 {
   position: absolute;
   right: 455px;
-  top: 325px;
+  top: 422px;
   z-index: -1
 }
 
@@ -10948,8 +10948,6 @@ border-radius:15px;"
 .splash {
   zoom: 0.9;
   transform: rotate(-11deg);
-  margin-left: -10%;
-  margin-top: 20%;
   box-shadow: 0 0 10px  rgba(0,0,0,0.3);
   border-radius: 37px;
 }
@@ -10957,8 +10955,6 @@ border-radius:15px;"
 .splash-dash {
   zoom: 0.8;
   transform: rotate(-11deg);
-  margin-left: 60%;
-  margin-top: 5%;
   box-shadow: 0 0 10px  rgba(0,0,0,0.3);
   border-radius: 15px;
 }
