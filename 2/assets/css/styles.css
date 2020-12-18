@@ -3,6 +3,11 @@ html, body {
   height: 100%
 }
 
+body::after{
+  position:absolute; width:0; height:0; overflow:hidden; z-index:-1; // hide images
+  content:url(../images/dashboard.png) url(../images/dashboard-2.png) url(../images/tasks-blue.png) url(../images/tasks-black.png) url(../images/my-tasks-blue.png) url(../images/schedule-blue.png);   // load images
+}
+
 *, :before, :after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -10660,13 +10665,6 @@ p {
   }
 }
 
-@media (max-width:767px) {
-  .login-title .title {
-    font-size: 38px;
-    line-height: 48px
-  }
-}
-
 @media only screen and (min-width:576px) and (max-width:767px) {
   .login-title .title {
     font-size: 60px;
@@ -10676,12 +10674,6 @@ p {
 
 .login-title .title span {
   color: #ff4f4f
-}
-
-@media (max-width:767px) {
-  .login-title p {
-    font-size: 15px
-  }
 }
 
 .login-form .input-box input {
@@ -10755,6 +10747,22 @@ p {
   .login-form .create-account-link span {
     font-size: 18px
   }
+  .login-title .title {
+      font-size: 38px;
+      line-height: 48px
+    }
+    .login-title p {
+      font-size: 15px
+    }
+    .login-form .input-box input {
+      width: 100%;
+    }
+    .banner-shaps-item {
+      display: none;
+    }
+    .login-form .input-box button {
+      width: 100%;
+    }
 }
 
 .login-form .create-account-link span a {
@@ -10953,4 +10961,14 @@ border-radius:15px;"
   margin-top: 5%;
   box-shadow: 0 0 10px  rgba(0,0,0,0.3);
   border-radius: 15px;
+}
+
+.branding-info {
+  width: auto;
+  border: 2px solid #ff4f4f;
+  line-height: 20px;
+  background: #ff4f4f;
+  color: white;
+  font-size: 0.8rem;
+  padding: 20px 30px 20px 30px;
 }
