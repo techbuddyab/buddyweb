@@ -1175,7 +1175,8 @@ p {
   line-height: 45px;
   padding: 0 30px;
   font-size: 14px;
-  font-weight: 500
+  font-weight: 500;
+  width: 140px;
 }
 
 .header-nav .navigation .navbar .navbar-btn a:hover {
@@ -10977,7 +10978,13 @@ border-radius:15px;"
   margin-top: 2%;
 }
 
-button.main-btn:hover {
+button.main-btn:hover,
+.pricing-item.center a.main-btn {
   font-size: 19px;
   text-align: center;
+}
+
+.navigation .navbar-btn a.main-btn:hover {
+  width: 140px;
+  font-size: 16px;
 }
