@@ -10980,3 +10980,8 @@ border-radius:15px;"
   line-height: 14px;
   margin-top: 2%;
 }
+
+button.main-btn:hover {
+  font-size: 19px;
+  text-align: center;
+}
