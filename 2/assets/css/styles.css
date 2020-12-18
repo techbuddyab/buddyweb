@@ -10801,7 +10801,7 @@ p {
   cursor: pointer;
   -moz-border-radius: 50%;
   border-radius: 50%;
-  border: 2px solid rgba(102, 102, 102, .12);
+  border: 2px solid rgba(255, 79, 79, .5);
   position: relative
 }
 
@@ -10809,7 +10809,7 @@ p {
   color: #fff;
   content: "\f00c";
   font-family: 'Font Awesome 5 Pro';
-  font-size: 11px;
+  font-size: 18px;
   position: absolute;
   text-align: center;
   left: 3px;
